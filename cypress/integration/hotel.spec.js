@@ -1,6 +1,6 @@
 /// <reference types="Cypress"/>
 
-describe('Sample Login',()=>{
+describe('Hotel Task',()=>{
     beforeEach(() => {
         cy.fixture('login_creds').as('data');
       });
